@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Base Style */
+.hamburger{
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    background-color: red;
+    font-size: 0;
+}
+
+.hamburger span{
+    width: 20px;
+    height: 3px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-left: -10px;
+    background-color: #fff;
+}
+.hamburger span:before,
+.hamburger span:after{
+    width: 20px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    transition: top 0.256s;
+}
+
+.hamburger span:before{
+    top: -8px;
+}
+.hamburger span:after{
+    top: 8px;
+}
+
+/* You will find four (4) sections of Hover State below*/
+/*  Section-1 has been commented out for you.
+    Kindly un-comment each hover section that you will
+    like to see while commenting out others to check
+    how styles apply
+*/
+
+
+
+/* Hover State */
+
+/* Section 1 */
+
+.hamburger:hover span:before{
+    top: -6px;
+}
+.hamburger:hover span:after{
+    top: 6px;
+}
+
+
+
+
+/* Section 2 */
+
+/* .hamburger:hover span:before{
+    top: 0;
+    transform: rotate(45deg);
+}
+.hamburger:hover span:after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.hamburger:hover span{
+    background-color: transparent;
+} */
+
+
+/* Section 3 */
+
+/* .hamburger:hover span:before{
+    right: 0;
+    width: 10px;
+    top: -4px;
+    transform: rotate(45deg);
+}
+.hamburger:hover span:after{
+    right: 0;
+    width: 10px;
+    top: 4px;
+    transform: rotate(-45deg);
+} */
+
+
+/* Section 4 */
+
+/* .hamburger:hover span:before{
+    top: -6px;
+}
+.hamburger:hover span:after{
+    top: 6px;
+    width: 10px;
+}
+.hamburger:hover span{
+    width: 16px;
+} */
