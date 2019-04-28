@@ -1,2 +1,2 @@
-# "Hamburger repository"
-#   You can find a demo here https://peggylicious.github.io/hamburger/
+# This Repo shows how a hamburger is made from scratch using HTML & CSS. Demo can be found here https://peggylicious.github.io/hamburger/
+
